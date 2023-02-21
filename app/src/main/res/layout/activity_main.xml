@@ -6,19 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
+    android:background="#FFEB3B"
 
 
     >
 
 
-<WebView
-    android:id="@+id/mwebView"
+ <TextView
+     android:id="@+id/mytexview"
+     android:layout_width="match_parent"
+     android:layout_height="150dp"
+     android:text="Regalt heir"
+     android:gravity="center"
+     android:textStyle="bold"
+  android:textSize="30dp">
+
+ </TextView>
+
+
+<Button
+    android:id="@+id/clickbutton"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-
+    android:layout_height="90dp"
+    android:text="click button"
+    android:backgroundTint="#00BCD4"
+    android:textColor="#000"
+    android:textStyle="bold"
+    android:textSize="30dp"
     >
 
-</WebView>
+
+</Button>
 
 
-</LinearLayout>
+  </LinearLayout>
